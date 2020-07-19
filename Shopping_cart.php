@@ -1,0 +1,197 @@
+ <?php
+
+require_once 'core/init.php';
+
+// Check if session exists
+if (!isset($_SESSION['shopping_cart']))
+{
+    // Create message
+    Session::flash('home', 'Your shopping cart is empty!');
+
+    Redirect::to('index.php');
+
+    exit();
+}
+
+// Creating class instances
+$user = new User();
+$pack = new Pack();
+$IP_Data = new IP_Data();
+
+// Check if user is logged
+if ($user->is_Logged_In() === false)
+{
+    // Set information about login status
+    Session::put("home", "!!! To pay, first you must be logged !!!<br/>");
+
+    Redirect::to('index.php');
+
+    exit();
+}
+// If user is logged in
+else{
+
+    // If user adress informations exists
+    if($pack->User_Informations_Exists()){
+
+        // Copy user adress informations from server
+        $country = $pack->data()->country;
+        $postal_code = $pack->data()->postal_code;
+        $place = $pack->data()->place;
+        $house_number = $pack->data()->house_number;
+        $phone = $pack->data()->phone;
+    }
+    // If user adress informations don't exists get IP informations
+    else{
+
+        // Copy user ID informations from server
+        $country = $IP_Data->data()->country;
+        $postal_code = $IP_Data->data()->postal;
+        $place = $IP_Data->data()->city;
+    }
+}
+
+// Check if Pay button has been submitted
+if(isset($_POST['submit'])){
+
+    // Check if Token is correct
+    if(Token::check(Input::get('token'))){
+
+        // Copy input data
+        $_SESSION['fname'] = filter_input(INPUT_POST, 'fname');
+        $_SESSION['lname'] = filter_input(INPUT_POST, 'lname');
+        $_SESSION['phone'] = filter_input(INPUT_POST, 'phone');
+        $_SESSION['email'] = filter_input(INPUT_POST, 'email');
+        $_SESSION['country'] = filter_input(INPUT_POST, 'country');
+        $_SESSION['postal_code'] = filter_input(INPUT_POST, 'postal_code');
+        $_SESSION['place'] = filter_input(INPUT_POST, 'place');
+        $_SESSION['house_number'] = filter_input(INPUT_POST, 'house_number');
+
+        // Copy UID
+        $_SESSION['UID'] = $user->data()->UID;
+
+        Redirect::to('RazorPay.php');
+    }
+}
+
+?>
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/cart.css" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link href="css/boostrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Lato|Open+Sans" rel="stylesheet" />
+    <title>MAIN PAGE</title>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  	<a class="navbar-brand" href="index.php">PcPartPicker</a>
+  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  	<span class="navbar-toggler-icon"></span>
+  	</button>
+	
+	 <ul class="navbar-nav ml-auto">
+	 <li class="nav-item active">
+
+                <a href="cart.php"class="btn btn-outline-warning">Shop</a>
+                <a href="#"class="btn btn-outline-info active">Shopping cart</a>
+	<a href="showproducts/f1_cpu.php" class="btn btn-outline-warning">Builed Yourself PC</a>
+	<a href="showproducts/Complete.php" class="btn btn-outline-success">Completed Builed PC</a>	
+                <a href="logout.php"class="btn btn-outline-danger">Log out</a>
+	</li>
+	</ul>
+	</nav>
+    <section class="main">
+
+<div class="container">
+<div class="table-responsive">
+            </br> <table class="table">
+                <tr>
+                    <th colspan="5">
+                        <h3>Order Details</h3>
+                    </th>
+                </tr>
+                <tr>
+                    <th width="40%">Product Name</th>
+                    <th width="10%">Quantity</th>
+                    <th width="20%">Price</th>
+                    <th width="15%">Total</th>
+                    <th width="5%">Action</th>
+                </tr>
+                <?php
+                if(!empty($_SESSION['shopping_cart'])):
+
+                    $total = 0;
+
+                    foreach($_SESSION['shopping_cart'] as $key => $product):
+                ?>
+                <tr>
+                    <td>
+                        <?php echo $product['name']; ?>
+                    </td>
+                    <td>
+                        <?php echo $product['quantity']; ?>
+                    </td>
+                    <td>
+                        $ <?php echo $product['price']; ?>
+                    </td>
+                    <td>
+                        $ <?php echo number_format($product['quantity'] * $product['price'], 2); ?>
+                    </td>
+                    <td>
+                        <a href="cart.php?action=delete&id=<?php echo $product['id']; ?>">
+                            <div class="btn-danger">Remove</div>
+                        </a>
+                    </td>
+                </tr>
+                <?php
+                        $total = $total + ($product['quantity'] * $product['price']);
+
+                        $_SESSION['total_price'] = $total*100;
+
+                    endforeach;
+                ?>
+                <tr>
+                    <td colspan="3" align="right">Total</td>
+                    <td align="right">
+                        $ <?php echo number_format($total, 2); ?>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <!-- Show checkout button only if the shopping cart is not empty -->
+                    <td colspan="5">
+                        <?php
+                    if (isset($_SESSION['shopping_cart'])):
+                        if (count($_SESSION['shopping_cart']) > 0):
+                        ?>
+                       </br> <a href="user_info.php" class="button"> Pay </a>
+                        <?php
+                        
+                        
+                    endif; endif; ?>
+                        
+                    </td>
+                </tr>
+                <?php
+                endif;
+                ?>
+            </table>
+        </div>
+</div>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+ 
+</body>
+</html>
