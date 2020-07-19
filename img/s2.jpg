@@ -1,0 +1,410 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="profile" href="https://gmpg.org/xfn/11">
+<style>
+        @font-face {
+            font-family: "Proxima";
+            font-display: swap;
+            src: url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-regular-webfont.eot?1540884759');
+            src: url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-regular-webfont.eot?&1540884759#iefix') format('embedded-opentype'), url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-regular-webfont.woff?1540884759') format('woff'), url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-regular-webfont.ttf?1540884759') format('truetype'), url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-regular-webfont.svg?1540884759') format('svg')
+        }
+
+        @font-face {
+            font-family: "Proxima";
+            font-display: swap;
+            src: url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-bold-webfont.eot?1541429024');
+            src: url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-bold-webfont.eot?&1541429024#iefix') format('embedded-opentype'), url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-bold-webfont.woff?1541428937') format('woff'), url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-bold-webfont.ttf?1541428949') format('truetype'), url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-bold-webfont.svg?1541429010') format('svg');
+            font-weight: bold
+        }
+
+        @font-face {
+            font-family: "Proxima";
+            font-display: swap;
+            src: url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-regitalic-webfont.eot?1540884759');
+            src: url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-regitalic-webfont.eot?&1540884759#iefix') format('embedded-opentype'), url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-regitalic-webfont.woff?1540884759') format('woff'), url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-regitalic-webfont.ttf?1540884759') format('truetype'), url('https://smartslider3.com/wp-content/themes/ss/fonts/proximanova-regitalic-webfont.svg?1540884759') format('svg');
+            font-style: italic
+        }
+    </style>
+
+<title>Why the Research Against Sliders is Wrong (and They Don’t Suck) - Smart Slider 3</title>
+<meta name="description" content="I’m tired of all the negative talk around sliders... Yes sliders do suck – but only when they aren’t used or designed well." />
+<meta name="robots" content="index, follow" />
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+<link rel="canonical" href="https://smartslider3.com/blog/why-the-research-against-sliders-is-wrong/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Why the Research Against Sliders is Wrong" />
+<meta property="og:description" content="I’m tired of all the negative talk around sliders... Yes sliders do suck – but only when they aren’t used or designed well." />
+<meta property="og:url" content="https://smartslider3.com/blog/why-the-research-against-sliders-is-wrong/" />
+<meta property="og:site_name" content="Smart Slider 3 — WordPress Plugin" />
+<meta property="article:publisher" content="https://www.facebook.com/nextendweb" />
+<meta property="article:modified_time" content="2019-05-15T10:12:31+00:00" />
+<meta property="og:image" content="https://smartslider3.com/wp-content/uploads/2017/12/slidersucksogimage.png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="630" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:creator" content="@nextendweb" />
+<meta name="twitter:site" content="@nextendweb" />
+<script type="application/ld+json" class="yoast-schema-graph">{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://smartslider3.com/#organization","name":"NEXTENDWEB LTD.","url":"https://smartslider3.com/","sameAs":["https://www.facebook.com/nextendweb","https://www.youtube.com/watch?v=MKmIwHAFjSU&amp;list=PLSawiBnEUNfvzcI3pBHs4iKcbtMCQU0dB","https://twitter.com/nextendweb"],"logo":{"@type":"ImageObject","@id":"https://smartslider3.com/#logo","inLanguage":"en-US","url":"https://smartslider3.com/wp-content/uploads/2015/10/logo120.jpg","width":120,"height":120,"caption":"NEXTENDWEB LTD."},"image":{"@id":"https://smartslider3.com/#logo"}},{"@type":"WebSite","@id":"https://smartslider3.com/#website","url":"https://smartslider3.com/","name":"Smart Slider 3 \u2014 WordPress Plugin","description":"Extending the world of WordPress and Joomla. Take your website to the next level with our plugins. Download Smart Slider 3 today and get started building beautiful sliders with confidence using our advanced editor. Designing sliders is finally fun!","publisher":{"@id":"https://smartslider3.com/#organization"},"potentialAction":[{"@type":"SearchAction","target":"https://smartslider3.com/?s={search_term_string}","query-input":"required name=search_term_string"}],"inLanguage":"en-US"},{"@type":"ImageObject","@id":"https://smartslider3.com/blog/why-the-research-against-sliders-is-wrong/#primaryimage","inLanguage":"en-US","url":"https://smartslider3.com/wp-content/uploads/2017/12/researchagainstslider.png","width":1200,"height":630,"caption":"Research Against Sliders"},{"@type":"WebPage","@id":"https://smartslider3.com/blog/why-the-research-against-sliders-is-wrong/#webpage","url":"https://smartslider3.com/blog/why-the-research-against-sliders-is-wrong/","name":"Why the Research Against Sliders is Wrong (and They Don\u2019t Suck) - Smart Slider 3","isPartOf":{"@id":"https://smartslider3.com/#website"},"primaryImageOfPage":{"@id":"https://smartslider3.com/blog/why-the-research-against-sliders-is-wrong/#primaryimage"},"datePublished":"2017-12-12T13:48:00+00:00","dateModified":"2019-05-15T10:12:31+00:00","description":"I\u2019m tired of all the negative talk around sliders... Yes sliders do suck \u2013 but only when they aren\u2019t used or designed well.","inLanguage":"en-US","potentialAction":[{"@type":"ReadAction","target":["https://smartslider3.com/blog/why-the-research-against-sliders-is-wrong/"]}]}]}</script>
+
+<link rel='dns-prefetch' href='//www.facebook.com' />
+<link rel='dns-prefetch' href='//connect.facebook.net' />
+<link rel="alternate" type="application/rss+xml" title="Smart Slider 3 — WordPress Plugin &raquo; Feed" href="https://smartslider3.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Smart Slider 3 — WordPress Plugin &raquo; Comments Feed" href="https://smartslider3.com/comments/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Smart Slider 3 — WordPress Plugin &raquo; Why the Research Against Sliders is Wrong (and They Don’t Suck) Comments Feed" href="https://smartslider3.com/blog/why-the-research-against-sliders-is-wrong/feed/" />
+<link rel='stylesheet' id='ss-style-css' href='https://smartslider3.com/wp-content/themes/ss/style.css?ver=1587562686' type='text/css' media='all' />
+<script type='text/javascript' src='https://smartslider3.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<link rel='https://api.w.org/' href='https://smartslider3.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://smartslider3.com/xmlrpc.php?rsd" />
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://smartslider3.com/wp-includes/wlwmanifest.xml" />
+<meta name="generator" content="WordPress 5.4.2" />
+<link rel='shortlink' href='https://smartslider3.com/?p=5010' />
+<link rel="alternate" type="application/json+oembed" href="https://smartslider3.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsmartslider3.com%2Fblog%2Fwhy-the-research-against-sliders-is-wrong%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://smartslider3.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fsmartslider3.com%2Fblog%2Fwhy-the-research-against-sliders-is-wrong%2F&#038;format=xml" />
+<script>(function (w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-K3Z3W7');</script><script type="text/javascript">(function(){var N=this;N.N2_=N.N2_||{r:[],d:[]},N.N2R=N.N2R||function(){N.N2_.r.push(arguments)},N.N2D=N.N2D||function(){N.N2_.d.push(arguments)}}).call(window);if(!window.n2jQuery){window.n2jQuery={ready:function(cb){console.error('n2jQuery will be deprecated!');N2R(['$'],cb)}}}window.nextend={localization:{},ready:function(cb){console.error('nextend.ready will be deprecated!');N2R('documentReady',function($){cb.call(window,$)})}};</script><script type="text/javascript" src="https://smartslider3.com/wp-content/plugins/nextend-smart-slider3-pro/Public/SmartSlider3/Application/Frontend/Assets/dist/n2.min.js?ver=70fceec4" defer async></script>
+<script type="text/javascript" src="https://smartslider3.com/wp-content/plugins/nextend-smart-slider3-pro/Public/SmartSlider3/Application/Frontend/Assets/dist/nextend-gsap.min.js?ver=70fceec4" defer async></script>
+<script type="text/javascript">
+
+</script></head>
+<body class="blog-template-default single single-blog postid-5010">
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+<div id="top">
+<nav id="menu">
+<a href="https://smartslider3.com" class="home" aria-label="Home">Home</a>
+<a href="https://smartslider3.com/help/" class="n2-button-plain menu-item menu-item-type-post_type menu-item-object-page menu-item-9072">Help</a><a href="https://smartslider3.com/features/" class="n2-button-plain menu-item menu-item-type-post_type menu-item-object-page menu-item-9073">Features</a><a href="https://smartslider3.com/blog/" class="n2-button-plain menu-item menu-item-type-post_type menu-item-object-page menu-item-9087">Blog</a><a href="https://smartslider3.com/try/" class="n2-button-plain menu-item menu-item-type-post_type menu-item-object-page menu-item-9075">Try</a><a href="https://smartslider3.com/free/" class="n2-button-plain menu-item menu-item-type-post_type menu-item-object-page menu-item-9076">Free</a><a target="_blank" rel="noopener" href="https://secure.nextendweb.com/" class="n2-button-plain menu-item menu-item-type-custom menu-item-object-custom menu-item-16156">Account</a><a href="https://smartslider3.com/sample-sliders/" class="n-button n-button-blue menu-item menu-item-type-post_type menu-item-object-page menu-item-9077">Templates</a><a href="https://smartslider3.com/pricing/" class="n-button n-button-green menu-item menu-item-type-post_type menu-item-object-page menu-item-9078">Buy Now</a>
+<a href="javascript:void(0);" class="icon" onclick="hamburgerMenu()"><div class="hamburger hamburger--boring">
+<div class="hamburger-box">
+<div class="hamburger-inner"></div>
+</div>
+</div></a>
+<script>
+            function hamburgerMenu() {
+                var x = document.getElementById("menu");
+                if (x.className === "") {
+                    x.className += "responsive";
+                } else {
+                    x.className = "";
+                }
+            }
+        </script>
+</nav>
+</div>
+<div id="page" class="site">
+<div id="content" class="site-content">
+<div id="primary" class="content-area page-blog-post">
+<main id="main" class="site-main">
+<article id="post-5010" class="post-5010 blog type-blog status-publish has-post-thumbnail hentry blogtags-header blogtags-hero-image blogtags-hero-slider blogtags-tips blogcategory-design">
+<header class="entry-header">
+<div class="block-780">
+<div class="entry-author-avatar">
+<div class="avatar-container"><img src="https://smartslider3.com/wp-content/uploads/2018/11/RaeleneMorey.png" width="74" height="74" alt="Raelene Morey" class="avatar avatar-74 wp-user-avatar wp-user-avatar-74 alignnone photo" /></div> </div>
+<div class="entry-details">by <a href="https://smartslider3.com/author/rae/">Raelene Morey</a> on December 12, 2017</div>
+<h1 class="entry-title">Why the Research Against Sliders is Wrong (and They Don’t Suck)</h1> <div class="entry-category"><a class="n-button n-button-small n-button-blue" href="https://smartslider3.com/blog/category/design/" rel="bookmark">Design</a></div> </div>
+</header>
+<div class="block-780">
+<div class="post-thumbnail post-thumbnail-medium">
+<img width="780" height="410" src="https://smartslider3.com/wp-content/uploads/2017/12/researchagainstslider-780x410.png" class="attachment-post-thumbnail-medium size-post-thumbnail-medium wp-post-image" alt="Research Against Sliders" srcset="https://smartslider3.com/wp-content/uploads/2017/12/researchagainstslider-780x410.png 780w, https://smartslider3.com/wp-content/uploads/2017/12/researchagainstslider-300x158.png 300w, https://smartslider3.com/wp-content/uploads/2017/12/researchagainstslider-768x403.png 768w, https://smartslider3.com/wp-content/uploads/2017/12/researchagainstslider-1024x538.png 1024w, https://smartslider3.com/wp-content/uploads/2017/12/researchagainstslider-360x189.png 360w, https://smartslider3.com/wp-content/uploads/2017/12/researchagainstslider.png 1200w" sizes="(max-width: 780px) 100vw, 780px" /> </div>
+</div>
+<div class="entry-content block-780">
+<p>I’m tired of all the negative talk around sliders so I’m just going to leave this here&#8230;<span id="more-5010"></span></p>
+<figure id="attachment_5011" aria-describedby="caption-attachment-5011" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/squarespace.gif" alt="Squarespace does a great job of showing beautiful sliders" width="1199" height="741" class="aligncenter size-full wp-image-5011" /><figcaption id="caption-attachment-5011" class="wp-caption-text">Squarespace does a great job of showing beautiful sliders</figcaption></figure>
+<p>Yes, I know it’s the <a href="https://www.squarespace.com/" rel="nofollow">Squarespace</a> homepage and yes, I’m well aware that this blog is on a site for a WordPress plugin. But you know what? The Squarespace website kicks <a href="http://wordpress.org/" rel="nofollow">WordPress.org</a>’s ass.</p>
+<p>Why? Well, it’s beautifully designed for one thing. And you know what else is really cool? Its sliders. That’s a big ol’ slider right there in the header.</p>
+<p>When I first visited the redesigned version of the site after having not seen it for a while (I love WordPress, why would I visit Squarespace?!), it took me a few moments to realize <strong>I was looking at a hero header slider because it looked gorgeous</strong>. I mean, look at it. It’s stunning!</p>
+<p>If you’ve been listening to the anti-slider brigade bleat on about how bad sliders are, spend a couple of minutes scrolling through the Squarespace homepage and then come back and tell me why sliders are terrible for user experience design, distracting, unattractive, slow and difficult to use… Those are some of the popular arguments against sliders.</p>
+<p>Because I just don’t see it. Yes, sliders were pretty damn ugly five years ago, but I’d argue that they’ve come a long way since then and are now an essential web design tool that everybody’s using whether you realize it or not.</p>
+<p>So in this post, I’m going to state my case for why sliders are making a comeback, attempt to shoot down the haters, and, hopefully, open your eyes to the possibilities that sliders offer.</p>
+<h2>Why Sliders Suck</h2>
+<p>Okay, you got me, <strong>sliders do suck – but only when they aren’t used or designed well</strong>.</p>
+<p>Here are some of the commonly cited arguments used against sliders that have contributed to its bad reputation:</p>
+<ul>
+<li>Sliders are confusing &#8211; <a href="https://www.widerfunnel.com/rotating-offers-the-scourge-of-home-page-design/" rel="nofollow">WiderFunnel, 2011</a></li>
+<li>People ignore sliders &#8211; <a href="https://www.nngroup.com/articles/auto-forwarding/" rel="nofollow">Nielsen Norman Group, 2013</a></li>
+<li>People consider sliders as advertising and don’t take in the messages they display &#8211; <a href="https://www.nngroup.com/articles/auto-forwarding/" rel="nofollow">Neilsen Norman Group, 2013</a></li>
+<li>Sliders are bad for SEO &#8211; <a href="https://searchengineland.com/homepage-sliders-are-bad-for-seo-usability-163496" rel="nofollow">Search Engine Land, 2013</a></li>
+<li>Sliders don’t always work well on mobile devices &#8211; <a href="https://krogsgard.com/2013/sliders-suck/" rel="nofollow">Brian Krogsgard, 2013</a></li>
+</ul>
+<p>Did you notice the commonality between the articles attached to those arguments? They’re all from 2013 except one (which was published in 2011, even older), which in tech terms is a lifetime ago. Web development and design have changed enormously since then, nullifying many of the assertions made against sliders as we count down the days to 2018.</p>
+<p>It’s also important to note that the sliders talked about in those posts haven’t been designed all that well and are mostly hero headers – <strong>sliders aren’t exclusively used in headers anymore</strong> (though some are) and shouldn’t be.</p>
+<p>To prove my point that sliders were ugly back in 2013, I used the <a href="https://web.archive.org/web/20130805083927/http://www.metaslider.com/" rel="nofollow">Way Back Machine</a> to find an example. Here you go:</p>
+<figure id="attachment_5012" aria-describedby="caption-attachment-5012" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/metaslider.jpg" alt="" width="1143" height="574" class="aligncenter size-full wp-image-5012" alt="Meta Slider page from 2013" /><figcaption id="caption-attachment-5012" class="wp-caption-text">Meta Slider page from 2013</figcaption></figure>
+<p>Yes, it’s a slider for a competing plugin. Interestingly, Meta Slider is still the most popular free slider plugin in the WordPress Plugin Directory. Currently, it has 800,000 active installs and <i>the same design it had back in 2013</i>.</p>
+<p>No wonder people think sliders suck.</p>
+<h2>Why Sliders Actually Work: The Research</h2>
+<p>Let’s take a look at a more recent study that shows – gasp! – <strong>sliders are a worthy design tool</strong>.</p>
+<p><a href="https://www.smashingmagazine.com/2015/02/carousel-usage-exploration-on-mobile-e-commerce-websites/" rel="nofollow">Kyle Peatt from Mobify</a>, a mobile commerce and engagement platform, spent 11 months sampling approximately 7.5 million slider interaction events on several mid-sized to large eCommerce websites that do at least $20 million in sales per year. </p>
+<p>Why invest so much time and effort into this research? Well, as a company that develops large-scale eCommerce sites for mobile devices, many of which have at least one slider, Peatt wanted hard evidence on whether the company was doing something wrong, i.e. doing a disservice to its customers by using sliders. </p>
+<p>Instead of being reactionary and blindly following the negative noise around sliders, Peatt decided to do his own research.</p>
+<p>The sampling he carried out on customer websites uncovered some interesting results, which I’ll compare here with data gathered by Erik Runyon. Runyon’s analysis of sliders for the University of Notre Dame is the most cited research when it comes to sliders sucking.</p>
+<div class="sc-newsletter">
+<svg xmlns="http://www.w3.org/2000/svg" width="90" height="90">
+<circle cx="45" cy="45" r="45" fill="#0B69ED" />
+<path fill="#FFF" fill-rule="evenodd" d="M66.655 65.279l.032.035-.103.096c-.508.942-1.489 1.59-2.627 1.59h-37.98c-.461 0-.894-.114-1.285-.302l-.007.008-.027-.027a3.004 3.004 0 0 1-1.361-1.365l-.026-.026.008-.008a2.984 2.984 0 0 1-.301-1.29V41.201c0-1.094.453-2.153 1.242-2.907l3.756-3.592v-5.829a3.008 3.008 0 0 1 2.998-3.01h6.316l-.032-.034 4.952-4.736a3.984 3.984 0 0 1 5.514 0l4.953 4.737-.032.033h6.314a3.007 3.007 0 0 1 2.998 3.01v5.83l3.757 3.591a4.037 4.037 0 0 1 1.241 2.907V63.99c0 .463-.113.897-.3 1.289zm-2.992-.286l-10.84-11.719a1.002 1.002 0 0 0-.732-.321H38.798a.996.996 0 0 0-.707.294l-11.7 11.746h37.272zm-35.687-27.52l-2.378 2.274a2.017 2.017 0 0 0-.621 1.454v1.224l2.999 2.316v-7.268zm-2.999 7.485v18.617l10.482-10.523-10.482-8.094zm21.368-22.411a1.99 1.99 0 0 0-2.757 0l-3.468 3.316h9.693l-3.468-3.316zm13.614 24.386v-18.06c0-.553-.449-1.003-1-1.003H30.974c-.551 0-.999.45-.999 1.003v17.411l6.933 5.354a2.96 2.96 0 0 1 1.89-.691h13.293a3 3 0 0 1 2.196.961l.153.165 5.631-5.14h-.112zm4.997-5.732c0-.548-.226-1.077-.621-1.454l-2.378-2.273v7.738l2.999-2.736v-1.275zm0 3.987l-9.155 8.356 9.155 9.897V45.188zM33.973 42.01a1 1 0 0 1 .999-1.003h19.989a1 1 0 0 1 .999 1.003c0 .555-.447 1.004-.999 1.004H34.972c-.552 0-.999-.449-.999-1.004zm20.988-3.009H34.972c-.552 0-.999-.449-.999-1.004a1 1 0 0 1 .999-1.003h19.989a1 1 0 0 1 .999 1.003c0 .555-.447 1.004-.999 1.004zm-13.992-4.014h-5.997c-.552 0-.999-.442-.999-.988s.447-.987.999-.987h5.997c.552 0 .999.441.999.987s-.447.988-.999.988z" />
+</svg>
+<div class="sc-newsletter-1">Get on board! Join our <b>62,416</b> subscribers!</div>
+<div class="sc-newsletter-2">Get our latest news, tutorials, guides, tips & deals delivered to your inbox.</div>
+<form action="//nextendweb.us6.list-manage.com/subscribe/post?u=a41cdf5c66c6a26c1002f5296&amp;id=1cf1f54d9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank" onsubmit="dataLayer.push({event: 'ga_event',ga_event_category: 'newsletter',ga_event_action: 'submit',ga_event_label: 'subscribe'});">
+<input name="EMAIL" type="email" placeholder="email@domain.com"><input type="submit" value="Subscribe" name="subscribe">
+<input type="hidden" value="No" name="SS3PRO" class="" id="mce-ss3pro">
+<input type="hidden" value="No" name="AMPRO" class="" id="mce-ampro">
+<input type="hidden" value="No" name="SS2PRO" class="" id="mce-ss2pro">
+<input type="hidden" value="Smart Slider 3" name="SOURCE" class="" id="mce-source">
+</form>
+<div class="sc-newsletter-3">No spam. No charge. Just curated emails.</div>
+</div>
+<h3>1. People Do interact with Sliders</h3>
+<p>Runyon found that only 1.07% of visitors clicked on sliders in the featured banner sliders he examined for the university. For his research, he counted an interaction as a user clicking on a slide.</p>
+<p>Peatt’s results, on the other hand, found that users interacted with product image gallery sliders at a high rate: <strong>72% of users swiped through sliders at least once</strong>, while 23% directly interacted with sliders by zooming.</p>
+<h3>2. People Don’t Only Interact with the First Slide</h3>
+<p>Back to Runyon’s research. Of the 1.07% of people who clicked on the university&#8217;s sliders, 89.1% clicked on the first slide. The assumption would be that clicks on the second slide would trend down, right? Instead, Runyon found that clicks fell off the face of the earth – just 3.1% of all clicks.</p>
+<p>Looking at Peatt’s results, he found that people directly interacted with the second slide of product image gallery sliders at a rate of 15.7%, and at least 64% of people advanced to the third slide – a roughly linear rate, not a steep drop.</p>
+<h3>3. Sliders Are Accessible</h3>
+<p>A lot of people assume that sliders aren’t accessible. I mean, you need to click the navigation arrows to see the next slide, right?</p>
+<p>That may have been the case in years gone by, but nowadays sliders – like everything else on a website – are required to meet accessibility guidelines. The Web Content Accessibility Guidelines (WCAG) 2.0 provides rules for how to make sliders accessible for anyone.</p>
+<p>Here are the guidelines in the WCAG 2.0 that relate to sliders and modern day sliders meet the requirements:</p>
+<ul>
+<li><b>Guideline 1.1 – Text Alternatives:</b> Any text you create for a slider can be read by reader software.</li>
+<li><b>Guideline 1.2 – Time-based Media:</b> Like any type of time-based media that is added to a slider, such as audio, video and captions, it’s up to the user to provide alternatives. </li>
+<li><b>Guideline 1.3 – Adaptable:</b> Sliders can use both aria and role attributes to identify regions such as navigational arrows. Other semantic elements, like highlighting parts of the text by making it bold or italic, can also be done by sliders.</li>
+<li><b>Guideline 1.4 – Distinguishable:</b> Depending on the sliders you’re using, it’s easy to adjust the color of every textual element, shape, arrow or bullet. For example, you could create a greater contrast between background images and layers by setting up a background color and lowering the image’s opacity.</li>
+<li><b>Guideline 1.4.2 – Audio Control:</b> Sliders usually provide some way to control the volume or pause it.</li>
+<li><b>Guideline 1.4.4 – Resize text:</b> Unfortunately, this can’t be controlled by sliders as the size of the text is usually based on the screen size.</li>
+<li><b>Guideline 2.1 – Keyboard Accessible:</b> Sliders allow you to use your keyboard, including for links, arrows, bullets and other slide changing controls. For some sliders, when the keyboard captures the slider itself, you can use the arrow keys to switch slides.</li>
+<li><b>Guideline 2.2 – Enough Time:</b> <a href="https://smartslider3.com/blog/slider-autoplay/">Autoplay</a> and intervals are easy to set with sliders so you can ensure users have enough time to interact with the slider.</li>
+<li><b>Guideline 2.3 – Seizures:</b> Sliders generally don’t force any kind flashing. While some sliders do feature flash effects, using it is the slider creator&#8217;s choice.</li>
+<li><b>Guideline 2.4 – Navigable:</b> This guideline relates more to the general design of the website containing the slider, but for most sliders, you can select heading tabs and include links.</li>
+<li><b>Guideline 3.1 – Readable:</b> It’s up to slider creators to provide text content that’s readable and understandable. As far as sliders are concerned, you can set font sizes and control their legibility.</li>
+<li><b>Guideline 3.2 – Predictable &#038; Guideline 3.3 – Input Assistance:</b> To meet this guideline, it’s up to the slider creator to consider the design of their site and slider.</li>
+<li><b>Guideline 4.1 – Compatible:</b> The most popular sliders have been developed using valid code, the latest HTML standards, and work on any browser and device.</li>
+</ul>
+<p>I should point out that the developers behind Smart Slider 3 have closely followed the WCAG 2.0 guidelines to ensure the plugin meets the relevant accessibility guidelines. This means that <strong>any sliders that are powered by Smart Slider 3 are accessible</strong> – so long as the user also considers the WCAG 2.0 guidelines and fulfills their responsibilities in satisfying the guidelines.</p>
+</div>
+<div class="block-1240">
+<div class="sc-promo">
+<div class="sc-promo-1"><img alt="Smart Slider 3 Logo" width="150" height="150" src="https://smartslider3.com/wp-content/themes/ss/images/logo-icon.png" /></div>
+<div class="sc-promo-2">
+<div class="sc-promo-2-1">The new way to build a Slider</div>
+<div class="sc-promo-2-2">Next generation visual editor, customizable animations & effects, and access to hundreads of premade templates.</div>
+</div>
+<div class="sc-promo-3">
+<a href="https://smartslider3.com/free/#n2-ss-240" class="n-button n-button-blue" onclick="dataLayer.push({event: 'ga_event',ga_event_category: 'promo',ga_event_action: 'click',ga_event_label: 'download'});">Download</a>
+<a href="https://smartslider3.com/pricing/" class="n-button n-button-green" onclick="dataLayer.push({event: 'ga_event',ga_event_category: 'promo',ga_event_action: 'click',ga_event_label: 'buy'});">Pricing</a>
+</div>
+</div>
+</div>
+<div class="entry-content block-780">
+<h3>Is Slider Use Growing in Line with Mobile Use?</h3>
+<p>There are two important things to keep in mind when reviewing the findings above: Runyon’s data focused on a higher education website while Peatt’s looked at mobile eCommerce.</p>
+<p>As Peatt highlights, sliders are “much more than a method of displaying marketing information on a homepage”, aka using a header slider.</p>
+<p><i>“Because we focus on designing for mobile, one of our biggest concerns is making sure that we’re balancing information density with the limitations of small screens. That means making sure we’re always making the best possible use of horizontal and vertical real estate.”</i> &#8211; Kyle Peatt</p>
+<p>For Mobify, this means using sliders to <b>maximize information density and maintain context without forcing users to scroll further down the page</b>.</p>
+<p>Sliders are better suited to retail and image-heavy websites, and when you pair these elements with mobile devices, you’re onto a winner. On mobile phones, it’s far easier to swipe through a slider of images than it is to click through a slider with a mouse.</p>
+<p>It’s worth noting that the <a href="https://www.statista.com/statistics/274774/forecast-of-mobile-phone-users-worldwide/" rel="nofollow">number of mobile phone users worldwide has grown</a> from 4.01 billion in 2013 to 4.77 in 2017, and is anticipated to reach 5.07 billion in 2019. In addition, mobile now represents 65% of digital media time, while <a href="https://marketingland.com/digital-growth-now-coming-mobile-usage-comscore-171505" rel="nofollow">desktop is becoming a “secondary touch point” for digital users</a>.</p>
+<p>So as mobile use continues to grow and more and more people do their shopping online, I’d wager that slider use will grow too.</p>
+<h2>So&#8230; Should Websites Use Sliders?</h2>
+<p>Overall, Peatt concludes that the data opened his eyes to how much research is still needed on sliders. He suggests more data is needs to be collected on different types of sliders, how interaction with a carousel affects a user’s actions, and why swiping is one of the least-used interaction types.</p>
+<p>Sliders aren’t automatically the best or right solution for every website. When it comes to marketing banners where users often exhibit “banner blindness,” the data shows sliders aren’t necessarily the best option. However, for product image galleries, they’re ideal because in this context, users know what the next slide holds and why they should view it.</p>
+<p>Out in the wild, sliders are used liberally across the web – you’ve probably seen a bunch of them today and didn’t even realize it. So I’ve rounded up a collection of examples to show you how sliders are being used for just about any purpose and to show you the types of sites that are well-suited to sliders.</p>
+<p>(I should also point out that you can create each and every one of the examples below using Smart Slider 3. It’s <i>that</i> good.)</p>
+<h3>Image Sliders</h3>
+<p>Marketplaces like Etsy, eBay and ThemeForest also use sliders so users can easily slide through product items.</p>
+<figure id="attachment_5015" aria-describedby="caption-attachment-5015" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/etsy.jpg" alt="Product slider example - Etsy" width="780" height="403" class="aligncenter size-full wp-image-5015" srcset="https://smartslider3.com/wp-content/uploads/2017/12/etsy.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/etsy-300x155.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/etsy-768x397.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5015" class="wp-caption-text">Product slider example &#8211; Etsy</figcaption></figure>
+<p>You’re almost guaranteed to find sliders on any real estate website you visit, like <a href="http://realestate.com.au/" rel="nofollow">realestate.com.au</a>, for example. When you view a property on the site, images of the home are displayed using a gallery.</p>
+<figure id="attachment_5016" aria-describedby="caption-attachment-5016" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/realestate-1.jpg" alt="Project image slider - Realestate" width="780" height="415" class="aligncenter size-full wp-image-5016" /><figcaption id="caption-attachment-5016" class="wp-caption-text">Project image slider &#8211; Realestate</figcaption></figure>
+<p>Even Tesla uses a slider to display the interior and exterior of its cars.</p>
+<figure id="attachment_5017" aria-describedby="caption-attachment-5017" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/tesla.jpg" alt="Image slider -Tesla" width="780" height="555" class="aligncenter size-full wp-image-5017" srcset="https://smartslider3.com/wp-content/uploads/2017/12/tesla.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/tesla-300x213.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/tesla-768x546.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5017" class="wp-caption-text">Image slider &#8211; Tesla</figcaption></figure>
+<p>You’ve already seen one example from Squarespace’s homepage in this article, but if you scroll further down the site you’ll see the page is chock-full of sliders – and they all look stunning.</p>
+<figure id="attachment_5018" aria-describedby="caption-attachment-5018" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/squarespace.jpg" alt="Template slider - Squarespace" width="780" height="337" class="aligncenter size-full wp-image-5018" srcset="https://smartslider3.com/wp-content/uploads/2017/12/squarespace.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/squarespace-300x130.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/squarespace-768x332.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5018" class="wp-caption-text">Template slider &#8211; Squarespace</figcaption></figure>
+<p>Sliders are ideal for hotel and accommodation sites like Airbnb that want to display a scrolling selection of options for users. </p>
+<figure id="attachment_5019" aria-describedby="caption-attachment-5019" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/airbnb.jpg" alt="Homes slider - Airbnb" width="780" height="295" class="aligncenter size-full wp-image-5019" srcset="https://smartslider3.com/wp-content/uploads/2017/12/airbnb.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/airbnb-300x113.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/airbnb-768x290.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5019" class="wp-caption-text">Homes slider &#8211; Airbnb</figcaption></figure>
+<p>Amazon makes liberal use of sliders to display products on its homepage. The sliders it uses have been designed so you can see a hint of the next product in the carousel. It peeks out from the right, prompting you to click on the arrow so you can see the product image and description in full.</p>
+<figure id="attachment_5020" aria-describedby="caption-attachment-5020" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/amazon.jpg" alt="Product slider - Amazon" width="780" height="312" class="aligncenter size-full wp-image-5020" srcset="https://smartslider3.com/wp-content/uploads/2017/12/amazon.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/amazon-300x120.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/amazon-768x307.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5020" class="wp-caption-text">Product slider &#8211; Amazon</figcaption></figure>
+<p>Now here’s an interesting take on slider design. On the Google Home Mini site, you can slide through different colored versions of the product using navigational arrows or by clicking on the corresponding colored buttons. As you advance through the colors, the background color also changes.</p>
+<figure id="attachment_5021" aria-describedby="caption-attachment-5021" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/google-home.jpg" alt="Image slider - Google Home" width="780" height="365" class="aligncenter size-full wp-image-5021" srcset="https://smartslider3.com/wp-content/uploads/2017/12/google-home.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/google-home-300x140.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/google-home-768x359.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5021" class="wp-caption-text">Image slider &#8211; Google Home</figcaption></figure>
+<h3>Testimonials</h3>
+<p>Almost every testimonial you see these days is in a slider, whether you’re conscious of it or not.</p>
+<p>Take Help Scout, for example. The customer service and support platform uses sliders to display scrolling testimonials. Check out how awesome they look – the quote really “pops” thanks to the clean and focused design.</p>
+<figure id="attachment_5022" aria-describedby="caption-attachment-5022" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/helpscout.jpg" alt="Testimonial slider - Help Scout" width="780" height="496" class="aligncenter size-full wp-image-5022" srcset="https://smartslider3.com/wp-content/uploads/2017/12/helpscout.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/helpscout-300x191.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/helpscout-768x488.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5022" class="wp-caption-text">Testimonial slider &#8211; Help Scout</figcaption></figure>
+<p>Uber uses <a href="https://smartslider3.com/blog/testimonial-slider/" target="_blank" rel="noopener noreferrer">testimonial slider</a> to introduce a few of its drivers. The cut off image and text on the right indicates that there’s more to read.</p>
+<figure id="attachment_5023" aria-describedby="caption-attachment-5023" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/uber.jpg" alt="Testimonial slider - Uber" width="780" height="495" class="aligncenter size-full wp-image-5023" srcset="https://smartslider3.com/wp-content/uploads/2017/12/uber.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/uber-300x190.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/uber-768x487.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5023" class="wp-caption-text">Testimonial slider &#8211; Uber</figcaption></figure>
+<h3>Hero Sliders</h3>
+<p>Sliders are traditionally associated with hero headers and have copped a bad rap, mostly because they used to look really ugly and were difficult to use. Nowadays, improvements in web development and design have vastly changed how sliders look and function.</p>
+<p>Microsoft uses a hero header to advertise its Surface Pro. There are multiple ways you can advance through the sliders – navigational arrows on either side of the image, buttons at the bottom of the image and a “play” button. It’s obvious that there are just two sliders thanks to the buttons at the bottom. The slider is also accessible so you can easily tab to move between the two slides.</p>
+<figure id="attachment_5025" aria-describedby="caption-attachment-5025" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/microsoft.jpg" alt="Hero slider - Microsoft" width="780" height="333" class="aligncenter size-full wp-image-5025" srcset="https://smartslider3.com/wp-content/uploads/2017/12/microsoft.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/microsoft-300x128.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/microsoft-768x328.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5025" class="wp-caption-text">Hero slider &#8211; Microsoft</figcaption></figure>
+<p>McDonalds also has an accessible header slider, with clear navigational controls. It’s also obvious how many slides there are. The incentive for advancing through this slider is the chance of finding a deal.</p>
+<figure id="attachment_5026" aria-describedby="caption-attachment-5026" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/mcdonalds.jpg" alt="Hero slider - McDonalds" width="780" height="346" class="aligncenter size-full wp-image-5026" srcset="https://smartslider3.com/wp-content/uploads/2017/12/mcdonalds.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/mcdonalds-300x133.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/mcdonalds-768x341.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5026" class="wp-caption-text">Hero slider &#8211; McDonalds</figcaption></figure>
+<p>Spotify uses a good old-fashioned hero header to advertise its premium sale. The messaging is clear and the CTA is obvious and highly clickable thanks to the use of contrasting colors. There’s nothing confusing about this slider – Spotify just wants you to “learn more” already.</p>
+<figure id="attachment_5027" aria-describedby="caption-attachment-5027" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/spotify.jpg" alt="Hero slider - Spotify" width="780" height="403" class="aligncenter size-full wp-image-5027" srcset="https://smartslider3.com/wp-content/uploads/2017/12/spotify.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/spotify-300x155.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/spotify-768x397.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5027" class="wp-caption-text">Hero slider &#8211; Spotify</figcaption></figure>
+<p>The SpaceX hero slider scrolls through its missions quickly but the text navigation at the bottom lets you see what’s coming up so it’s clear what’s coming next.</p>
+<figure id="attachment_5028" aria-describedby="caption-attachment-5028" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/spacex.jpg" alt="Hero slider - SpaceX" width="780" height="511" class="aligncenter size-full wp-image-5028" srcset="https://smartslider3.com/wp-content/uploads/2017/12/spacex.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/spacex-300x197.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/spacex-768x503.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5028" class="wp-caption-text">Hero Header slider &#8211; SpaceX</figcaption></figure>
+<h3>Showcases</h3>
+<p>Sliders allow you to showcase your work or product, and even tease visitors with FOMO, as Lonely Planet does in the showcase slider below.</p>
+<figure id="attachment_5029" aria-describedby="caption-attachment-5029" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/lonely-planet.jpg" alt="Showcase slider - Lonely Planet" width="780" height="516" class="aligncenter size-full wp-image-5029" srcset="https://smartslider3.com/wp-content/uploads/2017/12/lonely-planet.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/lonely-planet-300x198.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/lonely-planet-768x508.jpg 768w, https://smartslider3.com/wp-content/uploads/2017/12/lonely-planet-270x180.jpg 270w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5029" class="wp-caption-text">Showcase slider &#8211; Lonely Planet</figcaption></figure>
+<p>Likewise, National Geographic tell you “your wine adventure starts here” in its slider. Using a showcase slider, the magazine invites users to click through the images to see what else they might be missing out on.</p>
+<figure id="attachment_5030" aria-describedby="caption-attachment-5030" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/national-geographic.jpg" alt="Showcase slider - National Geographic" width="780" height="388" class="aligncenter size-full wp-image-5030" srcset="https://smartslider3.com/wp-content/uploads/2017/12/national-geographic.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/national-geographic-300x149.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/national-geographic-768x382.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5030" class="wp-caption-text">Showcase slider &#8211; National Geographic</figcaption></figure>
+<p>Again, Microsoft uses a slider to showcase its Xbox One and the range of games available to play.</p>
+<figure id="attachment_5032" aria-describedby="caption-attachment-5032" style="width: 780px" class="wp-caption aligncenter"><img src="https://smartslider3.com/wp-content/uploads/2017/12/xbox.jpg" alt="Showcase slider - Xbox" width="780" height="431" class="aligncenter size-full wp-image-5032" srcset="https://smartslider3.com/wp-content/uploads/2017/12/xbox.jpg 780w, https://smartslider3.com/wp-content/uploads/2017/12/xbox-300x166.jpg 300w, https://smartslider3.com/wp-content/uploads/2017/12/xbox-768x424.jpg 768w" sizes="(max-width: 780px) 100vw, 780px" /><figcaption id="caption-attachment-5032" class="wp-caption-text">Showcase slider &#8211; Xbox</figcaption></figure>
+<p>Like with anything in web design, there’s a place for everything and everything in its place. You just have to know when sliders are right for your users – and then design and configure them appropriately.</p>
+<h2>Tips for Creating Beautiful Sliders</h2>
+<p>If using a slider, or sliders, is a good fit for your website and would benefit your users, here are some tips to ensure you use them well.</p>
+<ul>
+<li><b>Design, design, design</b> – The best sliders are beautifully designed (remember the Squarespace homepage?) and use high-resolution images.</li>
+<li><b>Use responsive design</b> – Make sure your sliders are responsive and look great on every device, from big desktops to small mobile screens.</li>
+<li><b>Optimize images</b> – Always use correct images sizes and ensure they’re compressed for fast loading. To help further speed things up, consider lazy loading images.</li>
+<li><b>Limit number of items in slider</b> – As the research above clearly shows, interaction with slides tends to drop off after the first image. It’s best to stick to a maximum of 3 or 4 slides.</li>
+<li><b>Keep text to a minimum</b> – A slider isn’t the place to display a lot of text. Instead, ensure any message you want to convey is clear and concise. And if you’re using a call-to-action button, use one or two at most.</li>
+<li><b>Use clear navigation</b> – Ensure your sliders are easy to use. The idea here is that users shouldn’t need an instruction manual to work out how to use your slider. Sliders that use clear controls help to encourage interaction.</li>
+<li><b><a href="https://smartslider3.com/blog/slider-seo/">Consider SEO</a></b> – Ensure you’re using correct HTML tags with the right attributes.</li>
+<li><b>Consider Accessibility</b> – Don’t forget accessibility. For more, <a href="https://www.w3.org/WAI/EO/Drafts/tutorials/sliders/controls/" rel="nofollow">check out the W3C’s guide to sliders and carousels</a>.</li>
+<li><b>Always A/B test content</b> – Hope isn’t a strategy – always A/B test your sliders so you know what content, navigation and other elements are working and not working.</li>
+</ul>
+<h2>Should YOU Use a Slider?</h2>
+<p>Yes&#8230; and no. Whether you use a slider or not all depends on the context. It’s silly to use a slider purely because you want to jam more content into a tight space. It’s important to think about whether the slider is appropriate for the page and the content you want to display and whether it will be useful for the user.</p>
+<p>More research is needed into sliders and their effectiveness. The research often cited by slider haters is old and outdated. Web development and design have advanced considerably since 2013 when most of the research was released. While the Mobify data offers some insights into how mobile users interact with sliders on eCommerce sites, it would certainly be interesting to see new data on how users are interacting with sliders on non-eCommerce sites that use sliders for other purposes.</p>
+<p>However, the Mobify research does clearly show that sliders are an ideal design tool in the right situations. Retail, fashion, photography, real estate – these types of businesses that heavily rely on imagery are ideal candidates for sliders, particularly as users have come to expect them when scrolling through image galleries when buying online.</p>
+<p>If you do decide to use a slider on your site, be sure to consider the tips included in this article. No one likes a boring header slider – they’re so 2013. So do us all a favor and ensure you put time into designing your slider, optimizing images, using responsive design and making it accessible and easy for anyone to use.</p>
+<p class="post-tags">
+<b>Tags:</b> <a href="https://smartslider3.com/blog/tag/header/" rel="tag" class="n-button n-button-small n-button-blue">Header</a><a href="https://smartslider3.com/blog/tag/hero-image/" rel="tag" class="n-button n-button-small n-button-blue">Hero image</a><a href="https://smartslider3.com/blog/tag/hero-slider/" rel="tag" class="n-button n-button-small n-button-blue">Hero slider</a><a href="https://smartslider3.com/blog/tag/tips/" rel="tag" class="n-button n-button-small n-button-blue">Tips</a> </p>
+<div id="author-box" class="note" data-color="blue" itemscope itemtype="http://schema.org/Person">
+<div class="author-avatar">
+<div class="avatar-container"><img src="https://smartslider3.com/wp-content/uploads/2018/11/RaeleneMorey.png" width="74" height="74" alt="Raelene Morey" class="avatar avatar-74 wp-user-avatar wp-user-avatar-74 alignnone photo" /></div> </div>
+<div class="author-details" itemprop="name">
+<h3>About Author</h3>
+<p><a href="https://twitter.com/raemoreywrites" itemprop="name" target="_blank" rel="nofollow noopener noreferrer">Raelene Morey</a> is the Chief Bird at <a href="https://wordsbybirds.com/" itemprop="affiliation" target="_blank" rel="nofollow noopener noreferrer">Words By Birds </a>, an agency that helps WordPress businesses make better content. Computer science grad turned newspaper journalist and ex-managing editor at WPMU DEV. Raelene has been developing WordPress sites for over 10 years.</p>
+</div>
+</div>
+</div>
+</article>
+<div id="related-articles">
+<h2>Hand-picked Related Articles</h2>
+<div class="related-articles-container">
+<article id="post-9831">
+<a class="post-thumbnail post-thumbnail-small" href="https://smartslider3.com/blog/what-is-a-slider/" aria-hidden="true" tabindex="-1">
+<img width="360" height="189" src="https://smartslider3.com/wp-content/uploads/2018/08/whatisaslider-1-360x189.png" class="attachment-post-thumbnail-small size-post-thumbnail-small wp-post-image" alt="What is a Slider? The Ultimate Guide to WordPress Sliders" srcset="https://smartslider3.com/wp-content/uploads/2018/08/whatisaslider-1-360x189.png 360w, https://smartslider3.com/wp-content/uploads/2018/08/whatisaslider-1-300x158.png 300w, https://smartslider3.com/wp-content/uploads/2018/08/whatisaslider-1-768x403.png 768w, https://smartslider3.com/wp-content/uploads/2018/08/whatisaslider-1-1024x538.png 1024w, https://smartslider3.com/wp-content/uploads/2018/08/whatisaslider-1-780x410.png 780w, https://smartslider3.com/wp-content/uploads/2018/08/whatisaslider-1.png 1200w" sizes="(max-width: 360px) 100vw, 360px" /> </a>
+<header>
+<h4 class="entry-category"><a href="https://smartslider3.com/blog/category/design/" rel="bookmark">Design</a></h4><h3 class="entry-title"><a href="https://smartslider3.com/blog/what-is-a-slider/" rel="bookmark">What is a Slider? The Ultimate Guide to WordPress Sliders</a></h3> </header>
+</article>
+<article id="post-12367">
+<a class="post-thumbnail post-thumbnail-small" href="https://smartslider3.com/blog/slider-checklist/" aria-hidden="true" tabindex="-1">
+<img width="360" height="189" src="https://smartslider3.com/wp-content/uploads/2016/07/9pointchecklist-360x189.png" class="attachment-post-thumbnail-small size-post-thumbnail-small wp-post-image" alt="9 Point Ultimate Checklist to Create your Next Slider" srcset="https://smartslider3.com/wp-content/uploads/2016/07/9pointchecklist-360x189.png 360w, https://smartslider3.com/wp-content/uploads/2016/07/9pointchecklist-300x158.png 300w, https://smartslider3.com/wp-content/uploads/2016/07/9pointchecklist-768x403.png 768w, https://smartslider3.com/wp-content/uploads/2016/07/9pointchecklist-1024x538.png 1024w, https://smartslider3.com/wp-content/uploads/2016/07/9pointchecklist-780x410.png 780w, https://smartslider3.com/wp-content/uploads/2016/07/9pointchecklist.png 1200w" sizes="(max-width: 360px) 100vw, 360px" /> </a>
+<header>
+<h4 class="entry-category"><a href="https://smartslider3.com/blog/category/tutorials/" rel="bookmark">Tutorials</a></h4><h3 class="entry-title"><a href="https://smartslider3.com/blog/slider-checklist/" rel="bookmark">9 Point Ultimate Checklist to Create your Next Slider</a></h3> </header>
+</article>
+<article id="post-11205">
+<a class="post-thumbnail post-thumbnail-small" href="https://smartslider3.com/blog/how-to-design-your-slider/" aria-hidden="true" tabindex="-1">
+<img width="360" height="189" src="https://smartslider3.com/wp-content/uploads/2018/09/designyournextslider-360x189.png" class="attachment-post-thumbnail-small size-post-thumbnail-small wp-post-image" alt="How to Design &#038; Build Your Next Slider" srcset="https://smartslider3.com/wp-content/uploads/2018/09/designyournextslider-360x189.png 360w, https://smartslider3.com/wp-content/uploads/2018/09/designyournextslider-300x158.png 300w, https://smartslider3.com/wp-content/uploads/2018/09/designyournextslider-768x403.png 768w, https://smartslider3.com/wp-content/uploads/2018/09/designyournextslider-1024x538.png 1024w, https://smartslider3.com/wp-content/uploads/2018/09/designyournextslider-780x410.png 780w, https://smartslider3.com/wp-content/uploads/2018/09/designyournextslider.png 1200w" sizes="(max-width: 360px) 100vw, 360px" /> </a>
+<header>
+<h4 class="entry-category"><a href="https://smartslider3.com/blog/category/design/" rel="bookmark">Design</a></h4><h3 class="entry-title"><a href="https://smartslider3.com/blog/how-to-design-your-slider/" rel="bookmark">How to Design &#038; Build Your Next Slider</a></h3>  </header>
+</article>
+</div>
+</div>
+<div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+        this.page.url = "https:\/\/smartslider3.com\/blog\/why-the-research-against-sliders-is-wrong\/";
+        this.page.identifier = "5010 https:\/\/smartslider3.com\/?post_type=blog&p=5010";
+    };
+    setTimeout(function () {
+        var d = document, s = d.createElement('script');
+
+        s.src = 'https://smart-slider-3.disqus.com/embed.js';
+
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    }, 2000);
+</script>
+</main>
+</div>
+</div>
+<footer id="colophon" class="site-footer">
+<div class="subscribe">
+<div class="block-1200">
+<div class="social">
+<div>
+<h6>Join the community</h6>
+<p>Follow us and stay connected and updated.</p>
+</div>
+<a href="https://www.facebook.com/nextendweb" target="_blank" rel="noopener" class="n2-social-button n2-social-button-facebook">
+Facebook
+</a>
+<a href="https://twitter.com/nextendweb" target="_blank" rel="noopener" class="n2-social-button n2-social-button-twitter">
+Twitter
+</a>
+</div>
+<div class="newsletter">
+<div>
+<h6>Subscribe our newsletter</h6>
+<p>And receive the latest news from Smart Slider.</p>
+</div>
+<form action="//nextendweb.us6.list-manage.com/subscribe/post?u=a41cdf5c66c6a26c1002f5296&amp;id=1cf1f54d9b" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" target="_blank">
+<label for="email" style="display:block;overflow:hidden;width:0;height:0;">E-mail</label>
+<input name="EMAIL" id="email" type="email" placeholder="email@domain.com" /><input type="submit" value="Subscribe" name="subscribe" />
+<input type="hidden" value="No" name="SS3PRO" class="" id="mce-ss3pro">
+<input type="hidden" value="No" name="AMPRO" class="" id="mce-ampro">
+<input type="hidden" value="No" name="SS2PRO" class="" id="mce-ss2pro">
+<input type="hidden" value="Smart Slider 3" name="SOURCE" class="" id="mce-source">
+</form>
+</div>
+</div>
+</div>
+<nav class="nextend-info">
+<div class="block-1200">
+<div class="about-us">
+<img src="https://smartslider3.com/wp-content/themes/ss/images/nextend.png" alt="Nextendweb" loading="lazy" />
+<p>Extending the world of WordPress and Joomla. Take your website to the next level with our plugins. Download Smart Slider 3 today and get started building beautiful sliders with confidence using our advanced editor. Designing sliders is finally fun!</p>
+</div><div class="company info-col"><h6>Company</h6><hr />
+<ul class="sub-menu">
+<li id="menu-item-9090" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9090"><a target="_blank" rel="noopener" href="https://nextendweb.com/opening-of-the-nextend/">About us</a></li><li id="menu-item-9091" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9091"><a target="_blank" rel="noopener" href="https://nextendweb.com">Nextendweb</a></li><li id="menu-item-9092" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9092"><a target="_blank" rel="noopener" href="https://nextendweb.com/terms-and-conditions/">Terms and Conditions</a></li><li id="menu-item-9093" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9093"><a target="_blank" rel="noopener" href="https://nextendweb.com/privacy-policy/">Privacy Policy</a></li></ul>
+</div><div class="support info-col"><h6>Support</h6><hr />
+<ul class="sub-menu">
+<li id="menu-item-9095" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9095"><a target="_blank" rel="noopener" href="https://smartslider.helpscoutdocs.com/">Documentation</a></li><li id="menu-item-9096" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9096"><a target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/watch?v=3PPtkRU7D74&#038;list=PLSawiBnEUNfvVeY7M8Yx7UdyOpBEmoH7Z">Tutorial Videos</a></li><li id="menu-item-9099" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9099"><a href="https://smartslider3.com/pricing/#post-65">Pricing FAQ</a></li></ul>
+</div><div class="social info-col"><h6>Social</h6><hr />
+<ul class="sub-menu">
+<li id="menu-item-9101" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9101"><a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/nextendweb/">Facebook</a></li><li id="menu-item-9102" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9102"><a target="_blank" rel="noopener noreferrer" href="https://twitter.com/nextendweb">Twitter</a></li><li id="menu-item-9110" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9110"><a target="_blank" href="https://smartslider3.com/subscribe/">Newsletter</a></li><li id="menu-item-9104" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9104"><a href="https://smartslider3.com/blog/">Blog</a></li></ul>
+</div><div class="quick-links info-col"><h6>Quick Links</h6><hr />
+<ul class="sub-menu">
+<li id="menu-item-9106" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-9106"><a target="_blank" rel="noopener" href="https://secure.nextendweb.com">Login to Account</a></li><li id="menu-item-9107" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9107"><a href="https://smartslider3.com/affiliate/">Become an Affiliate</a></li><li id="menu-item-9108" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9108"><a href="https://smartslider3.com/partners/">Partners &#038; Deals</a></li><li id="menu-item-9109" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9109"><a href="https://smartslider3.com/features/">Why upgrade to Pro</a></li></ul>
+</div> </div>
+</nav>
+<div class="site-info">
+Copyright © 2020 Nextend. All rights reserved.
+</div>
+</footer>
+</div>
+<script>
+N2R('$', function ($) {
+    $('a[target="_blank"]').on('click', function (e) {
+        var href = $(this).attr('href');
+        try {
+            if (href !== '' && href !== '#' && href.match('smartslider3.com') === null && href.match('fastspring.com') === null && href.match('helpscoutdocs.com') === null) {
+
+                dataLayer.push({
+                    event: 'ga_event',
+                    ga_event_category: 'outbound',
+                    ga_event_action: 'click',
+                    ga_event_label: href
+                });
+            }
+        } catch (e) {
+        }
+    });
+});
+</script>
+</body>
+</html>
